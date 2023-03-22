@@ -4,7 +4,8 @@ public static Account insertNewAccount(String accountName){
 
     try{
             Account newAccount = new Account();
-            newAccount.name = accountName;
+
+            newAccount.name = accountName+"ingAdd";
             insert newAccount;  
             return newAccount;
        }
